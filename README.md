@@ -15,16 +15,29 @@ This project analyzes historical stock data from the Technology sector using:
 
 ## Key Findings
 
-### Pattern 1
-NVIDIA significantly outperformed Apple and Microsoft but showed higher volatility.
+### Pattern 1: NVIDIA Outperformance
+NVIDIA significantly outperformed Apple and Microsoft while showing higher volatility.
 
-### Pattern 2
-Technology stocks showed moderate positive correlation.
+![Normalized Trend](normalized_trend.png)
 
-### Pattern 3
-NVIDIA exhibited higher volatility compared with Apple and Microsoft.
+---
+
+### Pattern 2: Correlation Analysis
+Technology stocks exhibited moderate positive correlation.
+
+![Correlation Heatmap](correlation_heatmap.png)
+
+---
+
+### Pattern 3: Volatility Analysis
+NVIDIA showed wider return distribution indicating greater volatility.
+
+![Return Distribution](return_distribution.png)
+
+---
 
 ## Trading Strategy
+
 Moving Average Crossover Strategy
 
 Buy:
@@ -32,6 +45,10 @@ Buy:
 
 Sell:
 - 20-day MA < 50-day MA
+
+![Moving Average Strategy](moving_average_strategy.png)
+
+---
 
 ## Tools Used
 
